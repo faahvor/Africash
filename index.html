@@ -3,69 +3,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Africash</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700,1&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header>
-      <nav>
-        <img id="img" src="image/logo.png" alt="" />
-        <div class="general">
-          <div class="nav-link">
+  <body >
+    <header class="fixed w-full">
+      <nav
+        class="flex justify-between py-[10px] px-[20px] md:px-[70px] items-center border-b-[4px] border-[#E7E7E7]"
+      >
+        <img class="w-[120px]" id="img" src="image/logo.png" alt="" />
+        <div class="md:flex gap-[40px] hidden">
+          <div class="flex items-center gap-[30px] ">
             <a href="#">About</a>
             <a href="#">Features</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
           </div>
-          <div class="nav-button">
-            <button class="btn-1">Login</button>
-            <button class="btn-2">Signup</button>
+          <div class="flex gap-[21px]">
+            <button class="btn text-[#068353]">Login</button>
+            <button class="btn bg-[#068353] text-white">Signup</button>
           </div>
+        </div>
+        <div class="md:hidden">
+          <button
+            id="menu-btn"
+            type="button"
+            class="z-40 block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
         </div>
       </nav>
     </header>
+   
+    <!-- mobile menu -->
+    <div
+    id="menu"
+      class="absolute right-0 top-[3.5rem] flex-col items-center hidden px-8 pb-10 py-1 pt-10 pl-12 space-y-3 text-lg text-black uppercase "
+    >
+    <a href="#">About</a>
+    <a href="#">Features</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+    <div class="flex gap-[21px]">
+      <button class="btn text-[#068353]">Login</button>
+      <button class="btn bg-[#068353] text-white">Signup</button>
+    </div>
+    </div>
+    <!-- main menu part -->
+  <main class="flex flex-col">
+    <!-- first section -->
+    <section class="relative flex items-center mx-[20px] md:mx-0 md:pl-[70px] pt-[40px] h-[83vh]">
+      <div class="div1 text-center md:text-start mt-[-12rem] md:mt-0">
+        <div >
+          <h1 class="md:text-[50px] font-bold text-[36px] px-0">Africa in one finanacial platform</h1>
+          <p class="md:w-[45%] text-[18px]">
+            Africash is a digital ecosystem designed to make Africa one. It’s
+            goal is to bring the dream of financial inclusion to all people
+            across the continent.
+          </p>
+        </div>
+        <button class="bg-[#068353] py-[10px] px-[25px] text-white rounded-[30px]">Get started-It's free</button>
+      </div>
+      <img class=" h-[250px] mt-[24rem] md:mt-0 md:h-[500px] absolute z-[-1] md:right-0 md:top-[100px]" src="image/bg1.png" alt="" />
+    </section>
+    <!-- brand section -->
+    <section id="brand" class="flex mt-[6rem] gap-[2rem] md:gap-[6rem] bg-[#EDF0F5] py-[50px] px-[10px] md:px-[20px] justify-start md:justify-center items-center overflow-x-scroll">
+      <img
+        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/Forbes_logo_lew1nw.png"
+        alt=""
+      />
+      <img
+        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/TechCrunch_logo_xqaney.png"
+        alt=""
+      />
+      <img
+        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/cnbc_africa_l2yyn0.png"
+        alt=""
+      />
+      <img
+        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865049/africash/Group_1_as2fxw.png"
+        alt=""
+      />
+      <img
+        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865050/africash/Quartzlogo_peul1x.png"
+        alt=""
+      />
+    </section>
+
+
+  </main>
+
+  <script src="index.js"></script>
+  </body>
+</html>
+
+<!-- 
 
     <main>
-      <section class="firstSection">
-        <div class="div1">
-          <div>
-            <h1 class="h1">Africa in one finanacial platform</h1>
-            <p class="paragraph">
-              Africash is a digital ecosystem designed to make Africa one. It’s
-              goal is to bring the dream of financial inclusion to all people
-              across the continent.
-            </p>
-          </div>
-          <button>Get started-It's free</button>
-        </div>
-        <img id="bg1" src="image/bg1.png" alt="" />
-      </section>
+   
 
-      <section id="brand">
-        <img
-          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/Forbes_logo_lew1nw.png"
-          alt=""
-        />
-        <img
-          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/TechCrunch_logo_xqaney.png"
-          alt=""
-        />
-        <img
-          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/cnbc_africa_l2yyn0.png"
-          alt=""
-        />
-        <img
-          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865049/africash/Group_1_as2fxw.png"
-          alt=""
-        />
-        <img
-          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865050/africash/Quartzlogo_peul1x.png"
-          alt=""
-        />
-      </section>
+      
       <section>
         <div class="h2">
           <h2 >
@@ -103,6 +146,4 @@
            src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713868357/africash/Group_2_1_i1joxr.png" alt="" />
         </div>
       </section>
-    </main>
-  </body>
-</html>
+      </main> -->
