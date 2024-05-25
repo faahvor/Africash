@@ -10,13 +10,13 @@
     />
   </head>
   <body >
-    <header class="fixed w-full">
+    <header class="fixed w-full bg-white z-50">
       <nav
-        class="flex justify-between py-[10px] px-[20px] md:px-[70px] items-center border-b-[4px] border-[#E7E7E7]"
+        class=" flex justify-between py-[10px] px-[20px] md:px-[70px] items-center border-b-[4px] border-[#E7E7E7]"
       >
         <img class="w-[120px]" id="img" src="image/logo.png" alt="" />
         <div class="md:flex gap-[40px] hidden">
-          <div class="flex items-center gap-[30px] ">
+          <div class="flex items-center gap-[30px]">
             <a href="#">About</a>
             <a href="#">Features</a>
             <a href="#">Blog</a>
@@ -40,112 +40,404 @@
         </div>
       </nav>
     </header>
-   
+
     <!-- mobile menu -->
     <div
-    id="menu"
-      class="absolute right-0 top-[3.5rem] flex-col items-center hidden px-8 pb-10 py-1 pt-10 pl-12 space-y-3 text-lg text-black uppercase "
+      id="menu"
+      class="absolute right-0 top-[3.5rem] flex-col items-center hidden px-8 pb-10 py-1 pt-10 pl-12 space-y-3 text-lg text-black uppercase"
     >
-    <a href="#">About</a>
-    <a href="#">Features</a>
-    <a href="#">Blog</a>
-    <a href="#">Contact</a>
-    <div class="flex gap-[21px]">
-      <button class="btn text-[#068353]">Login</button>
-      <button class="btn bg-[#068353] text-white">Signup</button>
-    </div>
+      <a href="#">About</a>
+      <a href="#">Features</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+      <div class="flex gap-[21px]">
+        <button class="btn text-[#068353]">Login</button>
+        <button class="btn bg-[#068353] text-white">Signup</button>
+      </div>
     </div>
     <!-- main menu part -->
-  <main class="flex flex-col">
-    <!-- first section -->
-    <section class="relative flex items-center px-[10px] md:mx-0 md:pl-[70px] pt-[40px] h-[83vh]">
-      <div class="div1 text-center md:text-start mt-[-12rem] md:mt-0">
-        <div >
-          <h1 class="md:text-[50px] font-bold text-[36px] px-0">Africa in one finanacial platform</h1>
-          <p class="md:w-[45%] text-[18px]">
-            Africash is a digital ecosystem designed to make Africa one. It’s
-            goal is to bring the dream of financial inclusion to all people
-            across the continent.
-          </p>
-        </div>
-        <button class="bg-[#068353] py-[10px] px-[25px] text-white rounded-[30px]">Get started-It's free</button>
-      </div>
-      <img class=" h-[250px] mt-[24rem] md:mt-0 md:h-[500px] absolute z-[-1] md:right-0 md:top-[100px]" src="image/bg1.png" alt="" />
-    </section>
-    <!-- brand section -->
-    <section id="brand" class="flex mt-[6rem] gap-[2rem] md:gap-[6rem] bg-[#EDF0F5] py-[50px] px-[5px] md:px-[20px] justify-start md:justify-center items-center overflow-x-scroll">
-      <img
-        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/Forbes_logo_lew1nw.png"
-        alt=""
-      />
-      <img
-        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/TechCrunch_logo_xqaney.png"
-        alt=""
-      />
-      <img
-        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/cnbc_africa_l2yyn0.png"
-        alt=""
-      />
-      <img
-        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865049/africash/Group_1_as2fxw.png"
-        alt=""
-      />
-      <img
-        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865050/africash/Quartzlogo_peul1x.png"
-        alt=""
-      />
-    </section>
-
-    <!-- section 3 -->
-    <section>
-      <div class="flex items-center justify-center mt-[30px]">
-        <h2 class="md:w-[49rem] font-semibold md:font-bold md:text-[35px] text-[20px] text-center w-[15rem]">
-          Trusted by <span style="color: #068353">200 Million+ </span> active users across 
-          <span class="md:ml-[8rem]">54 countries</span>
-        </h2>
-      </div>
-      
-      <div class="flex md:flex-row flex-col  justify-normal md:gap-[15rem]">
-        <img 
-        class=" md:ml-[7rem] md:h-[30rem] h-[20rem] ml-[4rem] mt-8"
-        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713868358/africash/Group_1_tezmqi.png" alt="" />
-        <div class=" md:w-[28rem] md:pt-[8rem] pt-[2rem]  px-[18px]">
-          <h2 class="md:w-[40rem] md:font-bold font-semibold md:text-[35px] text-[25px] w-[20rem]">Travel every country in Africa without hopping on a plane </h2>
-          <p class="md:w-full w-[24rem]">We are
-            building a digital community that will empower you to take control
-            of your money and make it work for you.</p>
-          <button class="border-none bg-white text-[#068353] mr-4">Learn More</button>
-          
-          
-        </div>
-      </div>
-      <div class="flex md:flex-row flex-col-reverse mt-[5rem] md:mt-0 gap-[20px] md:gap-[15rem]">
-        <div class="md:w-[28rem] md:pt-[8rem] md:ml-[15rem] mx-8">
-        <h2 class="md:w-[40rem] md:font-bold font-semibold text-[25px] w-[25rem] md:text-[35px] ">  Earn rewards as you spend</h2>
-        <p class="md:w-full w-[24rem] "> We are building a digital community that
-          will empower you to take control of your  money and make it work for
-          you.</p>
-        <button class="border-none bg-white text-[#068353] mr-4">Learn More</button>
-         
+    <main class="mx-auto">
+      <!-- first section -->
+      <section
+        class="relative flex items-center px-[10px] md:mx-0 md:pl-[70px] pt-[40px] h-[83vh]"
+      >
+        <div class="div1 text-center md:text-start mt-[-12rem] md:mt-0">
+          <div>
+            <h1 class="md:text-[50px] font-bold text-[36px] px-0">
+              Africa in one finanacial platform
+            </h1>
+            <p class="md:w-[45%] text-[18px]">
+              Africash is a digital ecosystem designed to make Africa one. It’s
+              goal is to bring the dream of financial inclusion to all people
+              across the continent.
+            </p>
+          </div>
+          <button
+            class="bg-[#068353] py-[10px] px-[25px] text-white rounded-[30px]"
+          >
+            Get started-It's free
+          </button>
         </div>
         <img
-        class=" md:ml-0 md:h-[30rem] h-[20rem] ml-[4rem] md:mr-[10rem] "
-         src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713868357/africash/Group_2_1_i1joxr.png" alt="" />
-      </div>
-    </section>
+          class="h-[250px] mt-[24rem] md:mt-0 md:h-[500px] absolute z-[-1] md:right-0 md:top-[100px]"
+          src="image/bg1.png"
+          alt=""
+        />
+      </section>
+      <!-- brand section -->
+      <section
+        id="brand"
+        class="flex mt-[6rem] gap-[2rem] md:gap-[6rem] bg-[#EDF0F5] py-[50px] px-[5px] md:px-[20px] justify-start md:justify-center items-center overflow-x-scroll"
+      >
+        <img
+          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/Forbes_logo_lew1nw.png"
+          alt=""
+        />
+        <img
+          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/TechCrunch_logo_xqaney.png"
+          alt=""
+        />
+        <img
+          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865047/africash/cnbc_africa_l2yyn0.png"
+          alt=""
+        />
+        <img
+          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865049/africash/Group_1_as2fxw.png"
+          alt=""
+        />
+        <img
+          src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713865050/africash/Quartzlogo_peul1x.png"
+          alt=""
+        />
+      </section>
 
+      <!-- section 3 -->
+      <section>
+        <div class="flex items-center justify-center mt-[30px]">
+          <h2
+            class="md:w-[49rem] font-semibold md:font-bold md:text-[35px] text-[20px] text-center w-[15rem]"
+          >
+            Trusted by <span style="color: #068353">200 Million+ </span> active
+            users across
+            <span class="md:ml-[8rem]">54 countries</span>
+          </h2>
+        </div>
 
-  </main>
+        <div class="flex md:flex-row flex-col justify-normal md:gap-[15rem]">
+          <img
+            class="md:ml-[7rem] md:h-[30rem] h-[20rem] ml-[4rem] mt-8"
+            src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713868358/africash/Group_1_tezmqi.png"
+            alt=""
+          />
+          <div class="md:w-[28rem] md:pt-[8rem] pt-[2rem] px-[18px]">
+            <h2
+              class="md:w-[40rem] md:font-bold font-semibold md:text-[35px] text-[25px] w-[20rem]"
+            >
+              Travel every country in Africa without hopping on a plane
+            </h2>
+            <p class="md:w-full w-[24rem]">
+              We are building a digital community that will empower you to take
+              control of your money and make it work for you.
+            </p>
+            <button class="border-none bg-white text-[#068353] mr-4">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex md:flex-row flex-col-reverse mt-[5rem] md:mt-0 gap-[20px] md:gap-[15rem]"
+        >
+          <div class="md:w-[28rem] md:pt-[8rem] md:ml-[15rem] mx-8">
+            <h2
+              class="md:w-[40rem] md:font-bold font-semibold text-[25px] w-[25rem] md:text-[35px]"
+            >
+              Earn rewards as you spend
+            </h2>
+            <p class="md:w-full w-[24rem]">
+              We are building a digital community that will empower you to take
+              control of your money and make it work for you.
+            </p>
+            <button class="border-none bg-white text-[#068353] mr-4">
+              Learn More
+            </button>
+          </div>
+          <img
+            class="md:ml-0 md:h-[30rem] h-[20rem] ml-[4rem] md:mr-[10rem]"
+            src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1713868357/africash/Group_2_1_i1joxr.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- section4 -->
+      <section class="mt-[5rem] ">
+        <div class="grid md:grid-cols-2">
+          <div
+            class="md:order-none order-last bg-[#068353] md:pl-[10rem] pt-[5rem] md:pt-[10rem] pl-[4rem] md:pr-[6rem] text-white pb-[4rem] md:h-[90vh]"
+          >
+            <h1 class="md:text-[45px] mb-4 font-semibold">Perks of using us?</h1>
+            <ul class="flex flex-col gap-8 md:text-[25px]">
+              <li class="flex gap-4 imd:tems-center">
+                <svg
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#ffff"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M17.8086 9.70558C18.1983 9.31421 18.1969 8.68105 17.8056 8.29137C17.4142 7.90169 16.781 7.90305 16.3913 8.29442L10.6215 14.0892L7.30211 10.816C6.90886 10.4283 6.27571 10.4327 5.88793 10.8259C5.50015 11.2192 5.50459 11.8524 5.89784 12.2401L9.92581 16.212C10.3177 16.5985 10.9482 16.5956 11.3366 16.2056L17.8086 9.70558Z"
+                      fill="#ffff"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z"
+                      fill="#ffff"
+                    ></path>
+                  </g>
+                </svg>
+                No monthly fees
+              </li>
+              <li class="flex gap-4 items-center">
+                <svg
+                height="20px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#ffff"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M17.8086 9.70558C18.1983 9.31421 18.1969 8.68105 17.8056 8.29137C17.4142 7.90169 16.781 7.90305 16.3913 8.29442L10.6215 14.0892L7.30211 10.816C6.90886 10.4283 6.27571 10.4327 5.88793 10.8259C5.50015 11.2192 5.50459 11.8524 5.89784 12.2401L9.92581 16.212C10.3177 16.5985 10.9482 16.5956 11.3366 16.2056L17.8086 9.70558Z"
+                    fill="#ffff"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z"
+                    fill="#ffff"
+                  ></path>
+                </g>
+              </svg>
+                Shop internationally, no fees added
+              </li>
+              <li class="flex gap-4 items-center">
+                <svg
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#ffff"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M17.8086 9.70558C18.1983 9.31421 18.1969 8.68105 17.8056 8.29137C17.4142 7.90169 16.781 7.90305 16.3913 8.29442L10.6215 14.0892L7.30211 10.816C6.90886 10.4283 6.27571 10.4327 5.88793 10.8259C5.50015 11.2192 5.50459 11.8524 5.89784 12.2401L9.92581 16.212C10.3177 16.5985 10.9482 16.5956 11.3366 16.2056L17.8086 9.70558Z"
+                      fill="#ffff"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z"
+                      fill="#ffff"
+                    ></path>
+                  </g>
+                </svg>
+                Instant Reversals
+              </li>
+              <li class="flex gap-4 items-center">
+                <svg
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#ffff"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M17.8086 9.70558C18.1983 9.31421 18.1969 8.68105 17.8056 8.29137C17.4142 7.90169 16.781 7.90305 16.3913 8.29442L10.6215 14.0892L7.30211 10.816C6.90886 10.4283 6.27571 10.4327 5.88793 10.8259C5.50015 11.2192 5.50459 11.8524 5.89784 12.2401L9.92581 16.212C10.3177 16.5985 10.9482 16.5956 11.3366 16.2056L17.8086 9.70558Z"
+                      fill="#ffff"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z"
+                      fill="#ffff"
+                    ></path>
+                  </g>
+                </svg>
+                Continental debit card
+              </li>
+            </ul>
+          </div>
+          <div class="bg-[#8AF1BB] relative">
+            <div class="md:pl-[10rem] py-[3rem] md:pr-[3rem] pl-[3rem] pr-[3rem] ">
+              <div
+                class=" bg-[#45AE7B] md:pl-[40px] pl-[10px] pr-[10px] md:pr-[5px]  pt-[10px] rounded-xl md:rounded-tr-[7rem] rounded-tr-[5rem]"
+              >
+                <img class="h-[20rem] md:h-[33rem] " src="image/pic1.png" alt="" />
+              </div>
+            </div>
+            <div class="">
+              <div class="z-10 bg-black absolute bottom-[45px] md:bottom-[19px] left-[1.2rem] h-[4.3rem] w-[17.8rem] md:h-[4.5rem] md:w-[24rem] rounded-xl"></div>
+              <div class="z-20 absolute md:bottom-[2rem] bottom-[3.8rem] left-[1.2rem] bg-white rounded-xl flex justify-between px-[8px] md:px-[2rem] py-[8px] md:py-[1rem]">
+                <p class="flex ">
+                <svg
+                class="bg-[#D9D8F7] rounded-full text-center px-2 py-2 mr-3"
+                  height="40px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M5.625 15C5.625 14.5858 5.28921 14.25 4.875 14.25C4.46079 14.25 4.125 14.5858 4.125 15H5.625ZM4.875 16H4.125H4.875ZM19.275 15C19.275 14.5858 18.9392 14.25 18.525 14.25C18.1108 14.25 17.775 14.5858 17.775 15H19.275ZM11.1086 15.5387C10.8539 15.8653 10.9121 16.3366 11.2387 16.5914C11.5653 16.8461 12.0366 16.7879 12.2914 16.4613L11.1086 15.5387ZM16.1914 11.4613C16.4461 11.1347 16.3879 10.6634 16.0613 10.4086C15.7347 10.1539 15.2634 10.2121 15.0086 10.5387L16.1914 11.4613ZM11.1086 16.4613C11.3634 16.7879 11.8347 16.8461 12.1613 16.5914C12.4879 16.3366 12.5461 15.8653 12.2914 15.5387L11.1086 16.4613ZM8.39138 10.5387C8.13662 10.2121 7.66533 10.1539 7.33873 10.4086C7.01212 10.6634 6.95387 11.1347 7.20862 11.4613L8.39138 10.5387ZM10.95 16C10.95 16.4142 11.2858 16.75 11.7 16.75C12.1142 16.75 12.45 16.4142 12.45 16H10.95ZM12.45 5C12.45 4.58579 12.1142 4.25 11.7 4.25C11.2858 4.25 10.95 4.58579 10.95 5H12.45ZM4.125 15V16H5.625V15H4.125ZM4.125 16C4.125 18.0531 5.75257 19.75 7.8 19.75V18.25C6.61657 18.25 5.625 17.2607 5.625 16H4.125ZM7.8 19.75H15.6V18.25H7.8V19.75ZM15.6 19.75C17.6474 19.75 19.275 18.0531 19.275 16H17.775C17.775 17.2607 16.7834 18.25 15.6 18.25V19.75ZM19.275 16V15H17.775V16H19.275ZM12.2914 16.4613L16.1914 11.4613L15.0086 10.5387L11.1086 15.5387L12.2914 16.4613ZM12.2914 15.5387L8.39138 10.5387L7.20862 11.4613L11.1086 16.4613L12.2914 15.5387ZM12.45 16V5H10.95V16H12.45Z"
+                      fill="#403BD7"
+                    ></path>
+                  </g>
+                </svg>
+                <p class="flex flex-col font-bold"> <span class="text-lg"> Wardrobe</span> <span class="text-[#A0A0A0]">Saving </span></p>
+                </p>
+                
+                  <p class="flex items-center ml-[2rem]  md:ml-[5rem] text-lg font-bold text-[#138A5C]">
 
-  <script src="index.js"></script>
+                    <svg class="mr-[-10px]" fill="#47A380"  height="30px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" stroke="#47A380"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="65.536"></g><g id="SVGRepo_iconCarrier"><path d="M541.7 768v-45.3c46.3-2.4 81.5-15 108.7-37.8 27.2-22.8 40.8-53.1 40.8-88.2 0-37.8-11-65.7-35.3-83.4-24.6-20.1-59.8-35.4-111.6-45.3h-2.6V351.8c35.3 5.1 65.3 15 95.1 35.4l43.6-55.5c-43.6-27.9-89.9-42.9-138.8-45.3V256h-40.8v30.3c-40.8 2.4-76.3 15-103.5 37.8-27.2 22.8-40.8 53.1-40.8 88.2s11 63 35.3 80.7c21.7 17.7 59.8 32.7 108.7 42.9v118.5c-38.2-5.1-76.3-22.8-114.2-53.1l-48.9 53.1c48.9 40.5 103.5 63 163.3 68.1V768h41zm2.6-219.6c27.2 7.5 43.6 15 54.4 22.8 8.1 10.2 13.6 20.1 13.6 35.4s-5.5 25.2-19.1 35.4c-13.6 10.2-30.1 15-48.9 17.7V548.4zM449.2 440c-8.1-7.5-13.6-20.1-13.6-32.7 0-15 5.5-25.2 16.2-35.4 13.6-10.2 27.2-15 48.9-17.7v108.6c-27.2-7.8-43.4-15.3-51.5-22.8z"></path></g></svg>
+                40.00</p>
+              </div>
+            </div>
+            <div>
+            <div class="absolute z-10 top-[5rem] md:top-[9rem] right-[17px]  bg-[#E78C9D] rounded-xl  md:px-[3rem] px-[1rem] py-[1.5rem] text-center">
+              <span class="bg-[#F8DDE2] text-black text-center  font-bold px-4 py-2 md:px-4 md:py-3 rounded-full">S</span>
+              <p class="mt-[20px]  md:mt-[3rem] text-white font-normal text-lg">Savings</p>
+              <p class="flex text-white md:text-xl items-center tracking-wider font-medium mt-[-5px] md:mt-0">
+                <svg class="mr-[-5px] md:font-medium md:text-xl" fill="#ffff"  height="30px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" stroke="#47A380"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="65.536"></g><g id="SVGRepo_iconCarrier"><path d="M541.7 768v-45.3c46.3-2.4 81.5-15 108.7-37.8 27.2-22.8 40.8-53.1 40.8-88.2 0-37.8-11-65.7-35.3-83.4-24.6-20.1-59.8-35.4-111.6-45.3h-2.6V351.8c35.3 5.1 65.3 15 95.1 35.4l43.6-55.5c-43.6-27.9-89.9-42.9-138.8-45.3V256h-40.8v30.3c-40.8 2.4-76.3 15-103.5 37.8-27.2 22.8-40.8 53.1-40.8 88.2s11 63 35.3 80.7c21.7 17.7 59.8 32.7 108.7 42.9v118.5c-38.2-5.1-76.3-22.8-114.2-53.1l-48.9 53.1c48.9 40.5 103.5 63 163.3 68.1V768h41zm2.6-219.6c27.2 7.5 43.6 15 54.4 22.8 8.1 10.2 13.6 20.1 13.6 35.4s-5.5 25.2-19.1 35.4c-13.6 10.2-30.1 15-48.9 17.7V548.4zM449.2 440c-8.1-7.5-13.6-20.1-13.6-32.7 0-15 5.5-25.2 16.2-35.4 13.6-10.2 27.2-15 48.9-17.7v108.6c-27.2-7.8-43.4-15.3-51.5-22.8z"></path></g></svg>
+              3,000
+              </p>
+            </div>
+            <div class="absolute top-[6rem] md:top-[10rem] h-[9rem] md:h-[11rem] rounded-lg w-[6.9rem] md:w-[11.7rem] bg-black right-[7px] md:right-[5px]"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- scetion 5-->
+      <section class="h-[80vh] mt-[5rem]">
+        <div>
+          <h1 class="text-center mx-[2rem] md:mx-auto font-semibold text-[25px] md:text-[35px] w-[21rem] md:w-[32rem]">Still on the fence, here's what 
+            <span class="text-[#239267]">our users</span> are saying</h1>
+        </div>
+        <div class="flex gap-9 overflow-x-scroll mt-[4rem] md:mt-[8rem] ml-[1.5rem] md:ml-[6rem] pb-[3rem] no-scrollbar">
+          <!-- first grid -->
+          <div class="border-2 shadow-xl shadow-b shadow-[#E1E1E1] border-black rounded-2xl px-[1rem] md:px-[2rem] py-[1rem]">
+            <p class="md:w-[25rem] w-[20rem] relative  text-sm font-bold">
+              <img class="w-[20px]" src="image/open.png" alt="">
+              Africash is a really good app and it has made my life easier. I can now order as many things as
+               I want to from Ghana and have them delivered to my doorstep.
+                It's safe, easy and secure.
+              <img class="w-[20px] absolute right-0" src="image/close.png" alt="">
+              </p>
+              <div class=" mt-[3rem] border-b border-[1px] border-black"></div>
+              <div class="flex gap-4 mt-2 items-center">
+                <img class="h-[70px]" src="image/pic4.png" alt="">
+                <p class="text-xl font-normal"> <span class="font-bold">Laura Koffi</span><br>
+                  Entrepreneur</p>
+              </div>
+            </div>
+            <!-- second grid -->
+            <div class="border-2 shadow-xl shadow-b shadow-[#E1E1E1] border-black rounded-2xl px-[1rem] md:px-[2rem] py-[1rem]">
+              <p class="md:w-[25rem] w-[20rem] relative  text-sm font-bold">
+                <img class="w-[20px]" src="image/open.png" alt="">
+                Africash is a really good app and it has made my life easier. I can now order as many things as
+                 I want to from Ghana and have them delivered to my doorstep.
+                  It's safe, easy and secure.
+                <img class="w-[20px] absolute right-0" src="image/close.png" alt="">
+                </p>
+                <div class=" mt-[3rem] border-b border-[1px] border-black"></div>
+                <div class="flex gap-4 mt-2 items-center">
+                  <img class="h-[70px]" src="image/pic3.png" alt="">
+                  <p class="text-xl font-normal"> <span class="font-bold">David Aguda</span><br>
+                    Software Developer</p>
+                </div>
+              </div>
+              <!-- third grid -->
+              <div class="border-2 shadow-xl shadow-b shadow-[#E1E1E1] border-black rounded-2xl px-[1rem] md:px-[2rem] py-[1rem]">
+                <p class="md:w-[25rem] w-[20rem] relative  text-sm font-bold">
+                  <img class="w-[20px]" src="image/open.png" alt="">
+                  Africash is a really good app and it has made my life easier. I can now order as many things as
+                   I want to from Ghana and have them delivered to my doorstep.
+                    It's safe, easy and secure.
+                  <img class="w-[20px] absolute right-0" src="image/close.png" alt="">
+                  </p>
+                  <div class=" mt-[3rem] border-b border-[1px] border-black"></div>
+                  <div class="flex gap-4 mt-2 items-center">
+                    <img class="h-[70px]" src="image/pic4.png" alt="">
+                    <p class="text-xl font-normal"> <span class="font-bold">Ifeoma Oluchi</span><br>
+                      Retailer</p>
+                  </div>
+                </div>
+                <!-- 4th grid -->
+                <div class="border-2 shadow-xl shadow-b shadow-[#E1E1E1] border-black rounded-2xl px-[1rem] md:px-[2rem] py-[1rem]">
+                  <p class="md:w-[25rem] w-[20rem] relative  text-sm font-bold">
+                    <img class="w-[20px]" src="image/open.png" alt="">
+                    Africash is a really good app and it has made my life easier. I can now order as many things as
+                     I want to from Ghana and have them delivered to my doorstep.
+                      It's safe, easy and secure.
+                    <img class="w-[20px] absolute right-0" src="image/close.png" alt="">
+                    </p>
+                    <div class=" mt-[3rem] border-b border-[1px] border-black"></div>
+                    <div class="flex gap-4 mt-2 items-center">
+                      <img class="h-[70px]" src="image/pic2.png" alt="">
+                      <p class="text-xl font-normal"> <span class="font-bold">Laura Koffi</span><br>
+                        Accountant</p>
+                    </div>
+                  </div>
+        </div>
+      </section>
+
+      <!-- section 6 -->
+      <section class=" md:mt-[1rem] mb-[2rem] h-[60vh] md:h-[70vh] bg-[#068353] rounded-lg">
+        <div class="relative mt-[-20px] md:mt-0">
+          <img class="absolute h-[4rem] md:h-[9rem] top-[9rem] md:left-[12rem] left-[1rem]" src="image/67.png" alt="">
+          <img class="absolute h-[4rem]  md:h-[9rem] top-[22rem] left-[2rem] md:left-[19rem]" src="image/business-3d-golden-bitcoin-front.png" alt="">
+          <h1 class="md:font-bold font-semibold  pt-[10rem] text-[2rem] md:text-[3rem] text-white text-center mx-[75px] md:mx-auto">Do business with the world</h1>
+          <img class="absolute h-[2rem]   top-[17rem] left-[5.4rem] md:left-[31rem] md:h-[4rem]" src="image/Group.png" alt="">
+          <img class="absolute h-[2rem] top-[17rem] left-[13rem] md:left-[50rem] md:h-[4rem]" src="image/Google_Play_Store_badge_EN.png" alt="">
+          <img class="absolute h-[4rem]  top-[10rem] md:h-[8rem] md:right-[5rem] right-[1rem]" src="image/business-3d-flying-dollar-note.png" alt="">
+        <img class="h-[8rem] md:h-[12rem] absolute right-0 top-[21.3rem] md:top-[19.3rem]" src="image/Rectangle.png" alt="">
+        </div>
+
+      </section>
+    </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
-
-<!-- 
-
-    <main>
-   
-
-      
-     
-      </main> -->

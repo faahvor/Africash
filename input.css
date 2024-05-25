@@ -1,11 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    
+     .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none; 
+  }
+}
+}
  body {
-    margin: 0;
     font-family: "Clash Display", sans-serif;
-    height:100vh;
   } 
+  
   .btn{
     @apply py-[7px] px-[20px] rounded-[15px] border-2 border-[#068353]
   }
