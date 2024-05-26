@@ -650,6 +650,14 @@ video {
   top: 9rem;
 }
 
+.top-\[12rem\] {
+  top: 12rem;
+}
+
+.top-\[8rem\] {
+  top: 8rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1508,16 +1516,16 @@ body {
     top: 10rem;
   }
 
-  .md\:top-\[16rem\] {
-    top: 16rem;
+  .md\:top-\[16\.5rem\] {
+    top: 16.5rem;
   }
 
   .md\:top-\[9rem\] {
     top: 9rem;
   }
 
-  .md\:top-\[16\.5rem\] {
-    top: 16.5rem;
+  .md\:top-\[15\.5rem\] {
+    top: 15.5rem;
   }
 
   .md\:order-none {
