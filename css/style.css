@@ -806,6 +806,10 @@ video {
   display: none;
 }
 
+.h-\[18rem\] {
+  height: 18rem;
+}
+
 .h-\[20rem\] {
   height: 20rem;
 }
@@ -856,14 +860,6 @@ video {
 
 .h-\[9rem\] {
   height: 9rem;
-}
-
-.h-\[19rem\] {
-  height: 19rem;
-}
-
-.h-\[18rem\] {
-  height: 18rem;
 }
 
 .w-\[120px\] {
@@ -1632,10 +1628,6 @@ body {
 
   .md\:h-\[8rem\] {
     height: 8rem;
-  }
-
-  .md\:h-\[90vh\] {
-    height: 90vh;
   }
 
   .md\:h-\[9rem\] {
