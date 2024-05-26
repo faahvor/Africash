@@ -1512,12 +1512,36 @@ body {
     top: 15rem;
   }
 
+  .md\:top-\[4rem\] {
+    top: 4rem;
+  }
+
   .md\:top-\[9rem\] {
     top: 9rem;
   }
 
-  .md\:top-\[4rem\] {
-    top: 4rem;
+  .md\:top-\[16rem\] {
+    top: 16rem;
+  }
+
+  .md\:top-\[14rem\] {
+    top: 14rem;
+  }
+
+  .md\:top-\[17rem\] {
+    top: 17rem;
+  }
+
+  .md\:top-\[17\.5rem\] {
+    top: 17.5rem;
+  }
+
+  .md\:top-\[17\.2rem\] {
+    top: 17.2rem;
+  }
+
+  .md\:top-\[17\.3rem\] {
+    top: 17.3rem;
   }
 
   .md\:order-none {
