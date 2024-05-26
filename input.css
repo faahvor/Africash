@@ -20,7 +20,7 @@
   } 
   
   .btn{
-    @apply py-[7px] px-[52px] mr-[2rem] mt-[2rem] text-center pr-5 rounded-[15px] border-2 border-[#068353]
+    @apply py-[7px] px-[52px] mr-[2rem]  pr-5 rounded-[15px] border-2 border-[#068353]
   }
   
 /* hamburger menu style */

@@ -650,6 +650,34 @@ video {
   top: 9rem;
 }
 
+.top-\[25\.3rem\] {
+  top: 25.3rem;
+}
+
+.top-\[18\.3rem\] {
+  top: 18.3rem;
+}
+
+.top-\[20rem\] {
+  top: 20rem;
+}
+
+.top-\[19rem\] {
+  top: 19rem;
+}
+
+.left-\[8\.4rem\] {
+  left: 8.4rem;
+}
+
+.left-\[16rem\] {
+  left: 16rem;
+}
+
+.top-\[16rem\] {
+  top: 16rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -818,10 +846,6 @@ video {
   height: 2rem;
 }
 
-.h-\[30px\] {
-  height: 30px;
-}
-
 .h-\[30vh\] {
   height: 30vh;
 }
@@ -864,10 +888,6 @@ video {
 
 .w-\[120px\] {
   width: 120px;
-}
-
-.w-\[150px\] {
-  width: 150px;
 }
 
 .w-\[15rem\] {
@@ -1098,11 +1118,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-pink-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -1396,7 +1411,6 @@ body {
 
 .btn {
   margin-right: 2rem;
-  margin-top: 2rem;
   border-radius: 15px;
   border-width: 2px;
   --tw-border-opacity: 1;
@@ -1406,7 +1420,6 @@ body {
   padding-left: 52px;
   padding-right: 52px;
   padding-right: 1.25rem;
-  text-align: center;
 }
 
 /* hamburger menu style */
@@ -1458,10 +1471,6 @@ body {
 
 #brand img {
   height: 35px;
-}
-
-.hover\:text-\[006E41\]:hover {
-  color: 006E41;
 }
 
 .hover\:text-\[\#006E41\]:hover {
@@ -1529,6 +1538,26 @@ body {
 
   .md\:top-\[9rem\] {
     top: 9rem;
+  }
+
+  .md\:top-\[20\.3rem\] {
+    top: 20.3rem;
+  }
+
+  .md\:top-\[17\.3rem\] {
+    top: 17.3rem;
+  }
+
+  .md\:top-\[18\.3rem\] {
+    top: 18.3rem;
+  }
+
+  .md\:top-\[18rem\] {
+    top: 18rem;
+  }
+
+  .md\:top-\[19rem\] {
+    top: 19rem;
   }
 
   .md\:order-none {
@@ -1637,10 +1666,6 @@ body {
     height: 50vh;
   }
 
-  .md\:h-\[60px\] {
-    height: 60px;
-  }
-
   .md\:h-\[70vh\] {
     height: 70vh;
   }
@@ -1655,10 +1680,6 @@ body {
 
   .md\:h-\[9rem\] {
     height: 9rem;
-  }
-
-  .md\:w-0 {
-    width: 0px;
   }
 
   .md\:w-\[11\.7rem\] {
@@ -1836,5 +1857,11 @@ body {
 
   .md\:font-medium {
     font-weight: 500;
+  }
+}
+
+@media (min-width: 976px) {
+  .lg\:top-\[17rem\] {
+    top: 17rem;
   }
 }
