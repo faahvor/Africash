@@ -1508,8 +1508,8 @@ body {
     top: 10rem;
   }
 
-  .md\:top-\[15rem\] {
-    top: 15rem;
+  .md\:top-\[17\.3rem\] {
+    top: 17.3rem;
   }
 
   .md\:top-\[4rem\] {
@@ -1518,30 +1518,6 @@ body {
 
   .md\:top-\[9rem\] {
     top: 9rem;
-  }
-
-  .md\:top-\[16rem\] {
-    top: 16rem;
-  }
-
-  .md\:top-\[14rem\] {
-    top: 14rem;
-  }
-
-  .md\:top-\[17rem\] {
-    top: 17rem;
-  }
-
-  .md\:top-\[17\.5rem\] {
-    top: 17.5rem;
-  }
-
-  .md\:top-\[17\.2rem\] {
-    top: 17.2rem;
-  }
-
-  .md\:top-\[17\.3rem\] {
-    top: 17.3rem;
   }
 
   .md\:order-none {
@@ -1620,10 +1596,6 @@ body {
 
   .md\:h-\[11rem\] {
     height: 11rem;
-  }
-
-  .md\:h-\[12rem\] {
-    height: 12rem;
   }
 
   .md\:h-\[30rem\] {
